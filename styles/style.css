@@ -1,3 +1,19 @@
+a:link {
+  color: #00f;
+}
+
+a:visited {
+  color: #748ae3;
+}
+
+a:hover {
+  color: #1795d4;
+}
+
+a:active {
+  color: #de4f12;
+} 
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -24,6 +40,7 @@
   background-color:  #f2f2f2;
   min-height: 600px;
   max-height: 756px;
+  z-index: 1;
   /* выше установили ограничения для секции */
 }
 
@@ -53,7 +70,6 @@
 .header_title {
   width: 730px;
   margin: 64px;
-  z-index: 2;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -75,7 +91,7 @@
   bottom: 0px;
   width: 765px;
   height: 608px;
-  z-index: 1;
+  
 }
 
 .header_square_pic {
@@ -85,6 +101,7 @@
   height: 568px;
   right: 0px;
   top: 64px;
+  z-index: -1;
 }
 
 .content {
@@ -256,6 +273,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .kaufman_image {
@@ -264,7 +282,7 @@
   right: -210px;
   width: 877px;
   height: 877px;
-  z-index: 20;
+  z-index: -1;
 }
 
   .kaufman_section-title__theme-dark {
@@ -276,7 +294,6 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  z-index: 21;
 }
 
  .kaufman_section-subtitle__theme-dark {
@@ -288,13 +305,11 @@
   font-weight: normal;
   color: white;
   text-align: center;
-  z-index: 22;
-  }
+}
 
 .kaufman_table__dark-theme {
   position: relative;
   margin: 0px auto 90px 0;
-  z-index: 22;
 }
 
 .kaufman_list {
