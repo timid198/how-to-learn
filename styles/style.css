@@ -397,6 +397,7 @@ a:active {
   margin: 0;
   padding: 0;
   color: white;
+  text-decoration: none;
 }
 
 .footer__column_link {
@@ -408,4 +409,5 @@ a:active {
 .content__socials_icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
