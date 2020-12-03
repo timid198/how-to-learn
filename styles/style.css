@@ -81,17 +81,17 @@
 }  
   
 .header__link:visited {
-  text-decoration: none;  
+  text-decoration: none;
   color: #748ae3;
 }
   
 .header__link:hover {
-  text-decoration: none;  
+  text-decoration: none;
   color: #1795d4;
 }
   
 .header__link:active {
-  text-decoration: none;  
+  text-decoration: none;
   color: #de4f12;
 }
 
@@ -223,13 +223,12 @@
   background-color: #f2f2f2;
   position: relative;
   min-height: 790px;
-  padding-top: 0;
   z-index: 1;
 }
 
 .feynman__title {
   position: relative;
-  width: 648px;  
+  width: 648px;
   margin: auto;
   line-height: 1.15;
   font-weight: bold;
@@ -266,7 +265,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;  
+  text-decoration: none;
   color: #748ae3;
 }
   
@@ -277,7 +276,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;  
+  text-decoration: none;
   color: #1795d4;
 }
   
@@ -288,7 +287,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;  
+  text-decoration: none;
   color: #de4f12;
 }
 
@@ -372,7 +371,7 @@
   background-size: cover;
   position: absolute;
   top: 0;
-  right: -210px;  
+  right: -210px;
   z-index: -1;
 }
 
