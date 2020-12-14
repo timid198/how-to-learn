@@ -1,0 +1,22 @@
+.footer__column-link {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+  }
+
+.footer__column-link:hover {
+    opacity: 0.3;
+}
+
+.footer__column-link:active {
+  color: red;
+}
+
+.footer__column-link:visited {
+  color: grey;
+}
